@@ -153,6 +153,17 @@ section {
   min-height: 190px;
 }
 
+.publication-media-link {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.publication-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .publication u {
   text-underline-offset: 2px;
 }
@@ -227,6 +238,12 @@ footer p {
 
   .publication-media {
     display: none;
+  }
+
+  .publication-media-link {
+    display: block;
+    width: min(100%, 420px);
+    margin: 0 auto;
   }
 
   .profile-photo {
