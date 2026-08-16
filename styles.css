@@ -1,7 +1,7 @@
 :root {
   color-scheme: light;
   font-family: "Titillium Web", Verdana, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -10,15 +10,15 @@
 }
 
 body {
-  width: min(1080px, calc(100% - 48px));
+  width: min(1160px, calc(100% - 56px));
   margin: 0 auto;
   color: #222;
   background: #fff;
-  line-height: 1.5;
+  line-height: 1.52;
 }
 
 main {
-  padding: 34px 24px 12px;
+  padding: 38px 28px 14px;
 }
 
 a {
@@ -42,7 +42,7 @@ p {
 
 h1 {
   margin: 0 0 10px;
-  font-size: 44px;
+  font-size: 50px;
   font-weight: 400;
   line-height: 1.2;
   text-align: center;
@@ -50,13 +50,13 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 600;
 }
 
 h3 {
   margin: 0 0 2px;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -110,7 +110,7 @@ section {
 .section-title > p {
   margin: 0;
   color: #555;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .news-list,
@@ -149,7 +149,7 @@ section {
 .publication-media {
   display: block;
   width: 100%;
-  min-height: 175px;
+  min-height: 190px;
 }
 
 .publication u {
@@ -163,7 +163,7 @@ section {
 footer {
   padding: 10px 38px 28px;
   color: #777;
-  font-size: 14px;
+  font-size: 15px;
   text-align: right;
 }
 
@@ -173,8 +173,8 @@ footer p {
 
 @media (max-width: 640px) {
   body {
-    width: min(100% - 20px, 1080px);
-    font-size: 16px;
+    width: min(100% - 20px, 1160px);
+    font-size: 18px;
   }
 
   main {
@@ -187,15 +187,15 @@ footer p {
   }
 
   h1 {
-    font-size: 36px;
+    font-size: 40px;
   }
 
   h2 {
-    font-size: 24px;
+    font-size: 27px;
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 21px;
   }
 
   .profile-links {
