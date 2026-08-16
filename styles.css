@@ -165,6 +165,11 @@ section {
   object-fit: cover;
 }
 
+.publication-image-contain {
+  background: #fff;
+  object-fit: contain;
+}
+
 .publication u {
   text-underline-offset: 2px;
 }
