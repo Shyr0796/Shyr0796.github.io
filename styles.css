@@ -83,8 +83,9 @@ strong {
 
 .profile-photo {
   display: block;
-  width: 100%;
+  width: 66.6667%;
   height: auto;
+  margin: 0 auto;
 }
 
 .profile-links {
@@ -252,7 +253,7 @@ footer p {
   }
 
   .profile-photo {
-    width: min(100%, 280px);
+    width: min(66.6667%, 190px);
     margin: 0 auto 14px;
   }
 
