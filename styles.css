@@ -69,8 +69,21 @@ strong {
   padding: 12px 18px 22px;
 }
 
+.profile-grid {
+  display: grid;
+  margin-top: 24px;
+  align-items: start;
+  gap: 34px;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 7fr);
+}
+
+.profile-side {
+  padding-top: 4px;
+  text-align: center;
+}
+
 .profile-links {
-  margin-bottom: 28px;
+  margin-top: 24px;
   text-align: center;
 }
 
@@ -114,7 +127,11 @@ section {
 }
 
 .publication {
-  padding: 16px 0;
+  display: grid;
+  padding: 20px 0;
+  align-items: center;
+  gap: 24px;
+  grid-template-columns: minmax(0, 38fr) minmax(0, 62fr);
 }
 
 .publication + .publication {
@@ -123,6 +140,23 @@ section {
 
 .publication p {
   margin: 1px 0;
+}
+
+.publication-media {
+  display: block;
+}
+
+.publication-media img {
+  display: block;
+  width: 100%;
+  max-height: 190px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.text-publication {
+  display: block;
+  padding-left: calc(38% + 24px);
 }
 
 .publication u {
@@ -165,6 +199,36 @@ footer p {
 
   .profile-links {
     line-height: 1.8;
+  }
+
+  .profile-grid,
+  .publication {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-grid {
+    gap: 12px;
+  }
+
+  .profile-side {
+    text-align: left;
+  }
+
+  .profile-links {
+    margin-top: 12px;
+    text-align: left;
+  }
+
+  .publication {
+    gap: 14px;
+  }
+
+  .publication-media img {
+    max-height: 220px;
+  }
+
+  .text-publication {
+    padding-left: 0;
   }
 
   .bio {
