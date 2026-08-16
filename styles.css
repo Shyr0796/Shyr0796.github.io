@@ -82,8 +82,9 @@ strong {
 }
 
 .profile-photo {
+  display: block;
   width: 100%;
-  aspect-ratio: 1;
+  height: auto;
 }
 
 .profile-links {
@@ -224,9 +225,13 @@ footer p {
     gap: 14px;
   }
 
-  .profile-photo,
   .publication-media {
     display: none;
+  }
+
+  .profile-photo {
+    width: min(100%, 280px);
+    margin: 0 auto 14px;
   }
 
   .bio {
