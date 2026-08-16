@@ -1,7 +1,7 @@
 :root {
   color-scheme: light;
   font-family: "Titillium Web", Verdana, Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -10,15 +10,15 @@
 }
 
 body {
-  width: min(900px, calc(100% - 40px));
+  width: min(1080px, calc(100% - 48px));
   margin: 0 auto;
   color: #222;
   background: #fff;
-  line-height: 1.45;
+  line-height: 1.5;
 }
 
 main {
-  padding: 28px 20px 10px;
+  padding: 34px 24px 12px;
 }
 
 a {
@@ -41,8 +41,8 @@ p {
 }
 
 h1 {
-  margin: 0 0 8px;
-  font-size: 38px;
+  margin: 0 0 10px;
+  font-size: 44px;
   font-weight: 400;
   line-height: 1.2;
   text-align: center;
@@ -50,13 +50,13 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
 }
 
 h3 {
   margin: 0 0 2px;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 1.35;
 }
@@ -71,9 +71,9 @@ strong {
 
 .profile-grid {
   display: grid;
-  margin-top: 24px;
+  margin-top: 28px;
   align-items: start;
-  gap: 34px;
+  gap: 42px;
   grid-template-columns: minmax(0, 3fr) minmax(0, 7fr);
 }
 
@@ -96,7 +96,7 @@ strong {
 }
 
 section {
-  padding: 20px 18px 24px;
+  padding: 25px 20px 30px;
   border-top: 1px solid #aaa;
 }
 
@@ -110,7 +110,7 @@ section {
 .section-title > p {
   margin: 0;
   color: #555;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .news-list,
@@ -121,7 +121,7 @@ section {
 
 .news-list li,
 .honors-list li {
-  margin: 5px 0;
+  margin: 7px 0;
 }
 
 .news-list span,
@@ -132,7 +132,7 @@ section {
 
 .publication {
   display: grid;
-  padding: 20px 0;
+  padding: 25px 0;
   align-items: start;
   gap: 24px;
   grid-template-columns: minmax(0, 38fr) minmax(0, 62fr);
@@ -149,7 +149,7 @@ section {
 .publication-media {
   display: block;
   width: 100%;
-  min-height: 150px;
+  min-height: 175px;
 }
 
 .publication u {
@@ -163,7 +163,7 @@ section {
 footer {
   padding: 10px 38px 28px;
   color: #777;
-  font-size: 13px;
+  font-size: 14px;
   text-align: right;
 }
 
@@ -173,8 +173,8 @@ footer p {
 
 @media (max-width: 640px) {
   body {
-    width: min(100% - 20px, 900px);
-    font-size: 15px;
+    width: min(100% - 20px, 1080px);
+    font-size: 16px;
   }
 
   main {
@@ -187,7 +187,15 @@ footer p {
   }
 
   h1 {
-    font-size: 32px;
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 
   .profile-links {
