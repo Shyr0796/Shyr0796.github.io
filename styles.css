@@ -154,8 +154,7 @@ section {
   min-height: 0;
 }
 
-.publication-media-link {
-  min-height: 0;
+.publication-media-featured {
   overflow: hidden;
 }
 
@@ -241,7 +240,7 @@ footer p {
     display: none;
   }
 
-  .publication-media-link {
+  .publication-media-featured {
     display: block;
     width: min(100%, 420px);
     margin: 0 auto;
@@ -285,7 +284,7 @@ footer p {
     grid-template-columns: 1fr;
   }
 
-  .publication-media-link {
+  .publication-media-featured {
     width: min(100%, 320px);
   }
 }
