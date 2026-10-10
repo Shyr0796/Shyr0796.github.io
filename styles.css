@@ -294,3 +294,7 @@ footer p {
     width: min(100%, 320px);
   }
 }
+
+.publication-text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
